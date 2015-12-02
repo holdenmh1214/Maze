@@ -69,8 +69,8 @@ public class Main {
         if (nextRoom == null) {
             boolean temp = false;
             for (ArrayList<Room> roomList : rooms){
-                for (Room tempRoom : roomList){
-                    if (tempRoom.isEnd){
+                for (Room r : roomList){
+                    if (r.isEnd){
                         temp = true;
                     }
                 }
